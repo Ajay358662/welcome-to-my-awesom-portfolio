@@ -1,4 +1,4 @@
-* {
+t* {
   margin: 0;
   padding: 0;
 }
@@ -52,6 +52,11 @@ font-size: 30px;
 }
 .hamberger{
   display: none;
+}
+
+@media  screen and (max-width:640px) {
+  .logo{
+    font-size:20px;
 }
 
 @media  screen and (max-width:990px) {
@@ -204,6 +209,27 @@ span{
 
 }
 
+  @media  screen and (max-width:640px){
+    .picture2 img{
+      width:300px;
+      height:300px;
+    }
+    .objective2 div{
+      width:30px; 
+      height:30px;
+    }
+    .name2{
+      font-size:30px 
+    }
+    .profession3{
+      font-size:20px 
+    }
+
+    .profession4{
+      font-size:20px 
+    }
+  }
+
 @media screen and (max-width:990px) {
   .container2  {
   grid-template-columns: repeat(1,1fr);
@@ -222,6 +248,8 @@ span{
   }
 
 }
+
+  
 
 h1{
   text-align: center;
