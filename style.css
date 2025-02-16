@@ -453,18 +453,19 @@ transform: scale(1.1);
 
   
   .projects{
-    height: 850px;
+    height: 750px;
     background-color: whitesmoke;
   }
 }
 
 @media screen and (max-width:430px){
   .projects{
-  height:650px
+  height:550px;
+    background-color: whitesmoke;
   }
   .pic img{
       width: 300px;
-    height: 180px;s
+    height: 250px;s
   }
   .pic img:hover{
 transform: none;
@@ -472,7 +473,7 @@ transform: none;
 
   .pic2 img{
       width: 300px;
-    height: 180px;
+    height: 250px;
   }
   .pic2 img:hover{
 transform: none;
