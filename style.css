@@ -60,12 +60,7 @@ font-size: 30px;
 }
 }
 
-@media  screen and (max-width:640px){
-  .picture imh{
-    width:300px;
-    height:300px;
-  }
-}
+
 
 @media  screen and (max-width:990px) {
   .hamberger{
@@ -104,6 +99,14 @@ font-size: 30px;
   width: 400px;
   height: 400px;
   position: absolute;
+}
+
+
+@media  screen and (max-width:430px){
+  .picture img{
+    width:300px;
+    height:300px;
+  }
 }
 
 .for_us{
