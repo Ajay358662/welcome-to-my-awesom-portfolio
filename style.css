@@ -459,9 +459,12 @@ transform: scale(1.1);
 }
 
 @media screen and (max-width:430px){
+  .projects{
+  height:650px
+  }
   .pic img{
       width: 300px;
-    height: 100px;s
+    height: 180px;s
   }
   .pic img:hover{
 transform: none;
@@ -469,7 +472,7 @@ transform: none;
 
   .pic2 img{
       width: 300px;
-    height: 100px;
+    height: 180px;
   }
   .pic2 img:hover{
 transform: none;
