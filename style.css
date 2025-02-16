@@ -530,7 +530,7 @@ h5{
   }
 
   .contect{
-    height: 1070px;
+    height: 1090px;
     background-color: #292929;
   }
 
@@ -542,6 +542,9 @@ h5{
 }
   .slow{
     font-size:15px;
+  }
+  .mid{
+    font-size:38px;
   }
 }
 
