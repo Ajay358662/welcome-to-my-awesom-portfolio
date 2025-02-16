@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <script src="https://cdn.emailjs.com/dist/email.main.js"></script>
+    <script>
+        (function(){
+            emailjs.init("YOUR_PUBLIC_KEY");
+        })();
+    </script>
+</head>
+
+<body>
+    <main>
+
+        <nav class="nav flex justy items font_family">
+            <div class="left flex  items">
+                <div class="logo font_weight">Portfolio</div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="right "><button class="btn  font_weight"  >Contect</button></div>
+        </nav>
+
+        <section class="first flex">
+            <div class="container ">
+                <div class="picture"><img src="Untitled-1_1.png" alt=""></div>
+                <div class="for_us flex font_family ">
+                    <div class="name">Ajay</div>
+                    <div class="profession">I'm a frontend</div>
+                    <div class="profession2">Devloper</div>
+                    <div class="objective">To work with an organization ware. I can continuously upgrade my knowledge & skills at the same
+                        time serve the organization with the best of my sincerity and determination and where every
+                        achievement is regarded by increase in responsibility.</div>
+                    <div class="downlord"><button class="btn font_weight" onclick="downlordCV" ><a href="ajay.pdf" download="ajay.pdf" >Downlord CV</a></button></div>
+                        <script>
+                            function downlordCV(){
+                                const link = document.createElement('a');
+                                link.href = 'ajay.pdf';
+                                link.download = 'ajay.pdf';
+                                link.click();
+                            }
+                        </script>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="secend">
+            <div class="container2   ">
+                <div class="picture2 justfly"><img src="Untitled-1_1.png" alt=""></div>
+                <div class="for_us2 flex justfly font_family ">
+                    <div class="name2">About <span>Me</span></div>
+                    <div class="profession3">Hello I'm Ajay</div>
+                    <div class="profession4">To work with an organization ware. I can continuously upgrade my knowledge & skills at the same
+                        time serve the organization with the best of my sincerity and determination and where every
+                        achievement is regarded by increase in responsibility.</div>
+                    <div class="objective2 flex  items">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <h1 >My <span>Skills</span></h1>
+            <div class="skills-container">
+                    <div class="technical-skills">
+                        <h2>Technical Skills</h2>
+                        <div class="skill">
+                            <label class=" font_family">Html</label>
+                                <div class="bar">
+                                    <div class="fill" style ="--width:82%;"><span class="percentage font_weight font_family">82%</span></div>
+                                    
+                                </div>
+                        </div>
+
+                        
+			<div class="skill">
+				<label class=" font_family">Css</label>
+					<div class="bar">
+						<div class="fill" style ="--width:72%;"><span class="percentage font_weight font_family">72%</span></div>
+						
+					</div>
+			</div>
+
+			<div class="skill">
+				<label class=" font_family">Javascript</label>
+					<div class="bar">
+						<div class="fill" style ="--width:40%;"><span class="percentage font_weight font_family">40%</span></div>
+						
+					</div>
+			</div>
+
+
+
+			<div class="skill">
+				<label class=" font_family">Coreldraw</label>
+					<div class="bar">
+						<div class="fill" style ="--width:70%;"><span class="percentage font_weight font_family">70%</span></div>
+						
+					</div>
+			</div>
+</div>
+
+
+<div class="skills-container2">
+    <div class="technical-skills2">
+        <h2>Professional Skills </h2>
+        <div class="skill">
+            <label class=" font_family">Team work</label>
+                <div class="bar">
+                    <div class="fill" style ="--width:80%;"><span class="percentage font_weight font_family">80%</span></div>
+                    
+                </div>
+        </div>
+
+        
+<div class="skill">
+<label class=" font_family">Creativity</label>
+    <div class="bar">
+        <div class="fill" style ="--width:70%;"><span class="percentage font_weight font_family">70%</span></div>
+        
+    </div>
+</div>
+
+<div class="skill">
+<label class=" font_family">Project Mengement</label>
+    <div class="bar">
+        <div class="fill" style ="--width:50%;"><span class="percentage font_weight font_family">50%</span></div>
+        
+    </div>
+</div>
+
+
+
+<div class="skill">
+<label class=" font_family">Commnication</label>
+    <div class="bar">
+        <div class="fill" style ="--width:45%;"><span class="percentage font_weight font_family">45%</span></div>
+        
+    </div>
+</div>
+</div>
+        </section>
+
+        <section class="projects">
+            <h1 class="change font_family">My<span> Projects</span></h1>
+            <div class="project-content justfly justy  ">
+                
+                    <div class="pic2"><a href="#"><img src="5785419.jpg" width="450px" ></a></div>
+                
+                
+                    <div class="pic2 "><a href="#"><img src="5785419.jpg"   width="450px"  ></a></div>
+                
+            </div>
+
+        </section>
+        <section class="contect">
+            <h1 class="font_family font_weight">Contact <span>Us</span></h1>
+            <div class="use">
+                <div class="info ">
+                    <img src="" alt="">
+                    <h4>Call us on</h4>
+                    <h5>+91 836 0828 305</h5>
+                    </div>
+                    <div class="info2">
+                        <img src="" alt="">
+                        <h4>Email us it</h4>
+                        <h5>ak0499244@gmail.com</h5>
+                    </div>
+
+
+                </div>
+                <form action="" class="top">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary"  >Send Message</button>
+                    </div>
+                </form>
+            </section>
+
+            <footer >
+                <div class="footer flex items justfly font_family font_weight">
+                    <h3>2025 @ Ajay</h3>
+                </div>
+            </footer>
+            <script src="script.js"></script>
+        </main>
+    </body>
+
+</html>

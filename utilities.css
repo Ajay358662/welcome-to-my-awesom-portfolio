@@ -1,0 +1,39 @@
+.flex{
+    display: flex;
+}
+
+.items{
+    align-items: center;
+}
+
+.justy{
+    justify-content: space-around;
+}
+
+
+
+.justy2{
+    justify-content: space-between;
+}
+
+.justfly{
+    justify-content: center;
+}
+
+.font_family{
+    font-family: sans-serif;
+}
+
+.font_weight{
+    font-weight: 600;
+}
+
+.btn{
+    width: 140px;
+    height: 40px;
+    border: transparent;
+    background-color: #3DCFD3;
+    cursor: pointer;
+    text-transform:  uppercase;
+}
+
