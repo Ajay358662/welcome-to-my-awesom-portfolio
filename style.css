@@ -536,6 +536,15 @@ h5{
 
 }
 
+@media screen and (max-width:430px) {
+.fast{
+  font-size:28px;
+}
+  .slow{
+    font-size:15px;
+  }
+}
+
 .top{
   margin-top: -250px;
 }
