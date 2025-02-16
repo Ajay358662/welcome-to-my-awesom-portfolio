@@ -162,9 +162,13 @@ margin-top: 70px;
   width: 400px;
   height: 400px;
 margin-top: 130px;
- 
- 
-  
+}
+
+@media  screen and (max-width:640px){
+  .picture img{
+    width: 300px;
+    height: 300px;
+  }
 }
 .for_us2{
   flex-direction: column;
@@ -219,8 +223,8 @@ span{
 
   @media  screen and (max-width:640px){
     .picture2 img{
-      width:250px;
-      height:250px;
+      width:300px;
+      height:300px;
     }
     .objective2 div{
       width:30px; 
